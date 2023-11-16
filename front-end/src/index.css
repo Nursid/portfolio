@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+navbar-font {
+  font-size: 40px !important;
+}
+
+*{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: #fff;
+    overflow-x: hidden;
+    background: #2F3238;
+}
+
+li.nav-item {
+  /* font-family: 'roboto'; */
+  font-size: 1.2rem;
+  margin-right: 60px;
+  font-weight: 400;
+}
+.navbar {
+  margin: 0;
+  padding: 0 !important;
+}
+.navbar-nav .nav-link{
+ color: white !important; 
+}
+
+.nav-link:not(.active)::after{
+  border-bottom: 5px solid rgba(222,130,235,.911) !important;
+  border-radius: 5px !important;
+  content: '';
+  display: block;
+  width: 0;
+  height: 4px;
+  transition: width .3s;
+ margin-bottom: 3px;
+}
+.navbar-nav .nav-item a:hover:not(.active)::after {
+  width: 100%;
+}
+.active{
+  border-bottom: 5px solid rgba(222,130,235,.911) !important;
+  border-radius: 5px !important;
+
+}
+.title_logo{
+  width: 100%;
+  height: 85%;
+}
+.title{
+  width: 100%;
+}
