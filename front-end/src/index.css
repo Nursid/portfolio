@@ -96,3 +96,17 @@ font-weight: 700 !important;
   }
 
 }
+
+#introduction {
+  font-size: 22px;
+  margin-top: 35px;
+
+}
+.learn-skills{
+  margin-top: 50px;
+  font-size: 22px;
+}
+.avtar-logo img {
+  width: 100%;
+  height: fit-content;
+}
